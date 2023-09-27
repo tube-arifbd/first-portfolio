@@ -5,10 +5,13 @@ body{
   margin: 0;
 }
 
-.top-section{
+.d-flex{
   display: flex;
   padding: 70px 3%;
   align-items: center;
+}
+
+.top-section{
   background-image: url("image/top-banner.png");
   background-repeat: no-repeat;
 }
@@ -17,7 +20,7 @@ body{
   width: 50%;
 }
 
-.top-section h1{
+.title{
   font-family: 'Croissant One', cursive;
   font-size: 68px;
 }
@@ -42,7 +45,18 @@ body{
   background-image: linear-gradient(to bottom, #f78c6b, #fc6354);
 }
 
-img{
+.top-section img{
   width: 80%;
   float: right;
+}
+
+.dream-section{
+  background-image: url(image/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+.dream-section img{
+  width: 80%;
+  float: left;
 }

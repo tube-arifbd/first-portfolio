@@ -1,0 +1,48 @@
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  margin: 0;
+}
+
+.top-section{
+  display: flex;
+  padding: 70px 3%;
+  align-items: center;
+  background-image: url("image/top-banner.png");
+  background-repeat: no-repeat;
+}
+
+.col-50{
+  width: 50%;
+}
+
+.top-section h1{
+  font-family: 'Croissant One', cursive;
+  font-size: 68px;
+}
+
+.color-orange{
+  color: #f86554;
+}
+
+.top-section h3{
+  font-size: 30px;
+}
+
+.btn{
+  text-decoration: none;
+  background-image: linear-gradient(to bottom, #fc6354, #f78c6b);
+  padding: 10px 30px;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.btn:hover{
+  background-image: linear-gradient(to bottom, #f78c6b, #fc6354);
+}
+
+img{
+  width: 80%;
+  float: right;
+}

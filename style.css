@@ -60,3 +60,23 @@ body{
   width: 80%;
   float: left;
 }
+
+.experiance{
+  padding: 70px 3%;
+}
+
+.experiance h2{
+  font-size: 36px;
+}
+
+.experiance h3{
+  font-size: 20px;
+}
+
+.experiance-item{
+  box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.15);
+  padding: 25px;
+  margin: 0 20px;
+  border-left: 5px solid #f86554;
+  border-radius: 5px;
+}
